@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakaryae L - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <canvas id="digitalBackground"></canvas>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="nav-logo"></div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Accueil</a>
+            <a href="#about" class="nav-link">À propos</a>
+            <a href="#experience" class="nav-link">Expérience</a>
+            <a href="#skills" class="nav-link">Compétences</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text-center">
+                <div class="welcome-text">
+                    <div id="typed-strings">
+                        <p>Bonjour, je suis</p>
+                    </div>
+                    <span id="typed"></span>
+                    <h1 class="name">Zakaryae L</h1>
+                    <h2 class="title">Ingénieur Développeur Full Stack</h2>
+                </div>
+                <p class="description">
+                    Passionné par le développement web et les nouvelles technologies,<br>
+                    je crée des applications modernes et performantes.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary">Me contacter</a>
+                    <a href="#about" class="cta-button secondary">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="margin-left: 2cm; margin-right: 2cm;">
+
+            <h2 class="section-title">À propos</h2>
+            <div class="timeline-item">
+                
+                <div class="timeline-content about-card">
+                    <div class="about-text">
+                        <h3>Développeur Full Stack</h3>
+                        <p>
+                            Enthousiaste et déterminé, je trouve ma satisfaction dans la conception et la réussite de projets, et je m'engage avec une grande rigueur pour contribuer au succès de l'équipe. Mon expérience couvre le développement d'applications web modernes avec des technologies de pointe telles que Java Spring Boot, Angular, et Python. J'aime relever des défis techniques et collaborer avec des équipes pluridisciplinaires pour fournir des solutions efficaces et évolutives.
+                        </p>
+                        <p>
+                            Grâce à une forte expertise en bases de données et systèmes backend, j'ai travaillé sur des projets complexes impliquant la gestion des données volumineuses et des processus métier critiques. Mon objectif est d'apporter une valeur ajoutée en optimisant les performances et en garantissant la qualité des livrables.
+                        </p>
+                        <p>
+                            Toujours en quête d'apprentissage, je suis passionné par les nouvelles technologies et les pratiques DevOps. Mon approche est centrée sur l'amélioration continue, en utilisant des outils comme Docker et GitLab CI/CD pour assurer une livraison rapide et fiable des fonctionnalités.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/zak.jpg" alt="Zakaryae L">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+    
+    
+    
+    
+
+    <section id="experience" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Expérience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>OBJECTWARE - PARIS</h3>
+                        <span class="timeline-date">Avril 2024 - Présent</span>
+                        <p>Développeur Full Stack Java / Angular</p>
+                        <p><strong>Contexte:</strong> Analyse et développement des applications RefletsOFS pour l'entité FRESH</p>
+                        <ul>
+                            <li>La participation à la rédaction des spécifications à partir des besoins des utilisateurs</li>
+                            <li>Assurer le développement Backend et Frontend des applications</li>
+                            <li>Exécuter des tests unitaires pour vérifier la conformité des programmes</li>
+                            <li>Coordination entre les équipes pour les livraisons en production</li>
+                        </ul>
+                        <p><strong>Contexte Technique:</strong> Java Spring boot, Hibernate, Api Rest, Python, Teradata, Angular, Nodejs</p>
+                        <p><strong>Contexte métier:</strong> Banque</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>ALTEIS GROUPE - PARIS</h3>
+                        <span class="timeline-date">Octobre 2022 - Avril 2024</span>
+                        <p>Analyste-Développeur Java / COBOL</p>
+                        <p><strong>Contexte:</strong> Analyse et développement d'applications pour le compte de AG2R La Mondiale</p>
+                        <p>Maintenance évolutive et corrective du projet MEARI dans le domaine de la "Prévoyance"</p>
+                        <ul>
+                            <li>Assurer le développement des briques applicatives</li>
+                            <li>Prise en charge de la correction des incidents Batch et TP</li>
+                            <li>Exécuter des tests unitaires pour vérifier la conformité des programmes</li>
+                            <li>Rédactions des dossiers de mise en production</li>
+                            <li>Coordination entre les équipes pour les livraisons en production</li>
+                        </ul>
+                        <p><strong>Contexte Technique:</strong></p>
+                        <ul>
+                            <li>Java Spring boot, JPA, Hibernate, Api Rest, Sql Server, Jira, ServiceNow</li>
+                            <li>Cobol, Jcl, Cics, Db2, Spufi, Changeman, Xped, Control-M, SQuirreL</li>
+                        </ul>
+                        <p><strong>Contexte métier:</strong> Banque et Assurance</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>CGI TECHNOLOGIES ET SOLUTIONS - RABAT</h3>
+                        <span class="timeline-date">Septembre 2021 - Septembre 2022</span>
+                        <p>Développeur Java / COBOL</p>
+                        <p><strong>Contexte:</strong> Support et développement des applications mainframe / Java pour le compte du client Michelin au niveau périmètre de Rechapage</p>
+                        <ul>
+                            <li>Traitement des incidents applicatifs et correction des programmes (Batch et TP)</li>
+                            <li>Développement des briques applicatives pour les app Java et Mainframe</li>
+                            <li>Validation des changements en production</li>
+                        </ul>
+                        <p><strong>Contexte Technique:</strong></p>
+                        <ul>
+                            <li>Cobol, Db2, Jcl, Cics, Spufi, Tso, ServiceNow</li>
+                            <li>Java Spring boot, Hibernate, Api Rest, Sql server, Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>CGI TECHNOLOGIES ET SOLUTIONS - RABAT</h3>
+                        <span class="timeline-date">Mars 2021 - Août 2021</span>
+                        <p>Développeur Backend Java - PFE</p>
+                        <p><strong>Contexte:</strong> Participation à un projet dans le secteur pneumatique "MICHELIN"</p>
+                        <ul>
+                            <li>La mise en place et l'alimentation d'un portail D3C par les données de facturation en provenance d'une app Mainframe afin de faciliter la lisibilité et la lecture des documents par les clients</li>
+                        </ul>
+                        <p><strong>Technologies:</strong> Java Spring boot/Security, Spring Data JPA, Hibernate, Angular, Sql server, Scrum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+                    <div class="skills-container">
+                        <div class="skill-item" data-skill="Python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Java">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Technologies Web</h3>
+                    <div class="skills-container">
+                        <div class="skill-item" data-skill="HTML5">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Base de données & Outils</h3>
+                    <div class="skills-container">
+                        <div class="skill-item" data-skill="SQL">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Git">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:l.zakaryae@gmail.com">l.zakaryae@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+33758999091">+33 7 58 99 90 91</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>13 Rue Roque de Fillol, 92800 PUTEAUX</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/zakaryaelançar" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/lazakaria" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p class="copyright"> 2024 | Conçu et développé avec <i class="fas fa-heart"></i> par Zakaryae L</p>
+                    <p class="footer-quote">"Le code est comme l'humour. Quand on doit l'expliquer, c'est mauvais."</p>
+                </div>
+       
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
